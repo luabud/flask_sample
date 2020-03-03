@@ -27,7 +27,3 @@ def hello_there(name):
     
     return content
 
-
-if __name__ == '__main__':
-    app.run(host='localhost', port=5000)
-
