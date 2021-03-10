@@ -11,8 +11,8 @@ def index():
 
 @app.route("/<name>")
 def hello_there(name):
-    now = datetime.now()
-    formatted_now = now.strftime("%A, %d %B, %Y at %X")
+now = datetime.now() 
+    formatted_now = now.strftime("%A, %d %B, %Y at %X)
 
     match_object = re.match("[a-zA-Z]+", name)
 
